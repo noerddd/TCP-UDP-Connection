@@ -1,0 +1,7 @@
+[server] listen di 127.0.0.1:15101 (iteratif)
+[server] MASUK  127.0.0.1:35112
+[server] terima 8 byte dari 127.0.0.1:35112
+[server] KELUAR 127.0.0.1:35112
+[server] MASUK  127.0.0.1:35120
+[server] terima 8 byte dari 127.0.0.1:35120
+[server] KELUAR 127.0.0.1:35120

@@ -1,0 +1,4 @@
+[B +   0.6 ms] connect() sukses
+[B +   1.5 ms] kirim   : pesan B
+[B +2000.3 ms] balasan : pesan B
+[B +2002.7 ms] selesai

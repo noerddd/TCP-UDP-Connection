@@ -1,0 +1,23 @@
+2026-11-01T05:29:44Z LISTEN 127.0.0.1:15104 maks_klien=64 maks_antrean=65536 rate=10/detik sndbuf=1024
+2026-11-01T05:29:44Z MASUK  127.0.0.1:45308 total=1
+2026-11-01T05:29:44Z DAFTAR 127.0.0.1:45308 nama=lambat
+2026-11-01T05:29:44Z MASUK  127.0.0.1:45310 total=2
+2026-11-01T05:29:44Z DAFTAR 127.0.0.1:45310 nama=probe
+2026-11-01T05:29:44Z MASUK  127.0.0.1:45326 total=3
+2026-11-01T05:29:44Z DAFTAR 127.0.0.1:45326 nama=banjir0
+2026-11-01T05:29:44Z MASUK  127.0.0.1:45334 total=4
+2026-11-01T05:29:44Z DAFTAR 127.0.0.1:45334 nama=banjir1
+2026-11-01T05:29:44Z MASUK  127.0.0.1:45346 total=5
+2026-11-01T05:29:44Z DAFTAR 127.0.0.1:45346 nama=banjir2
+2026-11-01T05:29:44Z MASUK  127.0.0.1:45356 total=6
+2026-11-01T05:29:44Z DAFTAR 127.0.0.1:45356 nama=banjir3
+2026-11-01T05:29:44Z MASUK  127.0.0.1:45372 total=7
+2026-11-01T05:29:44Z DAFTAR 127.0.0.1:45372 nama=validasi
+2026-11-01T05:29:46Z PUTUS  127.0.0.1:45308 nama=lambat alasan=antrean_penuh(65536 byte)
+2026-11-01T05:29:46Z KELUAR 127.0.0.1:45308 nama=lambat alasan=penutupan paksa sisa_antrean=64967
+2026-11-01T05:29:52Z KELUAR 127.0.0.1:45310 nama=probe alasan=socket error sisa_antrean=0
+2026-11-01T05:29:55Z KELUAR 127.0.0.1:45372 nama=validasi alasan=socket error sisa_antrean=50708
+2026-11-01T05:29:55Z KELUAR 127.0.0.1:45334 nama=banjir1 alasan=socket error sisa_antrean=37
+2026-11-01T05:29:55Z KELUAR 127.0.0.1:45326 nama=banjir0 alasan=socket error sisa_antrean=73
+2026-11-01T05:29:55Z KELUAR 127.0.0.1:45356 nama=banjir3 alasan=gagal kirim sisa_antrean=109
+2026-11-01T05:29:55Z KELUAR 127.0.0.1:45346 nama=banjir2 alasan=gagal kirim sisa_antrean=145

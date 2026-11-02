@@ -1,0 +1,13 @@
+2026-11-01T05:30:00Z LISTEN 127.0.0.1:15443 TLS aktif crt=pki/server.crt maks_klien=64
+2026-11-01T05:30:00Z MASUK  127.0.0.1:44986 total=1 (menunggu handshake TLS)
+2026-11-01T05:30:00Z TLS-OK 127.0.0.1:44986 versi=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-11-01T05:30:00Z DAFTAR 127.0.0.1:44986 nama=aman
+2026-11-01T05:30:04Z KELUAR 127.0.0.1:44986 nama=aman alasan=baca TLS berakhir sisa_antrean=0
+2026-11-01T05:30:04Z MASUK  127.0.0.1:45000 total=1 (menunggu handshake TLS)
+2026-11-01T05:30:04Z TLS-OK 127.0.0.1:45000 versi=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-11-01T05:30:04Z DAFTAR 127.0.0.1:45000 nama=probeTLS
+2026-11-01T05:30:07Z KELUAR 127.0.0.1:45000 nama=probeTLS alasan=baca TLS berakhir sisa_antrean=0
+2026-11-01T05:30:07Z MASUK  127.0.0.1:45010 total=1 (menunggu handshake TLS)
+2026-11-01T05:30:07Z TLS-GAGAL 127.0.0.1:45010 kode=1
+2026-11-01T05:30:07Z TLSERR SSL_accept: error:0A00009C:SSL routines::http request
+2026-11-01T05:30:07Z KELUAR 127.0.0.1:45010 nama=- alasan=handshake gagal sisa_antrean=0

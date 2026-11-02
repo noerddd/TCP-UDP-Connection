@@ -1,0 +1,130 @@
+{
+  "environment": {
+    "date": "2026-11-01 12:29:35 +0700",
+    "platform": "Linux-6.17.0-41-generic-x86_64-with-glibc2.42"
+  },
+  "m1": {
+    "B_before_A_closed": "[B +   0.6 ms] connect() sukses\n[B +   1.5 ms] kirim   : pesan B\n",
+    "elapsed_seconds": 2.009511590999864,
+    "B_after": "[B +   0.6 ms] connect() sukses\n[B +   1.5 ms] kirim   : pesan B\n[B +2000.3 ms] balasan : pesan B\n[B +2002.7 ms] selesai\n"
+  },
+  "m2": {
+    "server": {
+      "VmSize": 2980,
+      "VmRSS": 2036,
+      "Threads": 1
+    }
+  },
+  "m3": {
+    "stream_server_exit": 0
+  },
+  "m4": {
+    "validated_stat_ms": [
+      0.7189110001490917,
+      0.6667079996987013,
+      1.0518569997657323,
+      1.1519920008140616,
+      1.0087730006489437,
+      1.1984069997197366,
+      0.8402909998039831,
+      0.5865379998795106
+    ]
+  },
+  "m5": [
+    {
+      "binary": "s2_server",
+      "clients": 0,
+      "baseline": {
+        "VmSize": 2980,
+        "VmRSS": 2032,
+        "Threads": 1
+      },
+      "loaded": {
+        "VmSize": 2980,
+        "VmRSS": 2032,
+        "Threads": 1
+      },
+      "setup_ms": 251.6475590000482
+    },
+    {
+      "binary": "s2_server",
+      "clients": 8,
+      "baseline": {
+        "VmSize": 2980,
+        "VmRSS": 2032,
+        "Threads": 1
+      },
+      "loaded": {
+        "VmSize": 2980,
+        "VmRSS": 2048,
+        "Threads": 1
+      },
+      "setup_ms": 382.1265719998337
+    },
+    {
+      "binary": "s2_server",
+      "clients": 24,
+      "baseline": {
+        "VmSize": 2980,
+        "VmRSS": 2036,
+        "Threads": 1
+      },
+      "loaded": {
+        "VmSize": 2980,
+        "VmRSS": 2084,
+        "Threads": 1
+      },
+      "setup_ms": 651.5363489997981
+    },
+    {
+      "binary": "s5_server",
+      "clients": 0,
+      "baseline": {
+        "VmSize": 2912,
+        "VmRSS": 2032,
+        "Threads": 1
+      },
+      "loaded": {
+        "VmSize": 2912,
+        "VmRSS": 2032,
+        "Threads": 1
+      },
+      "setup_ms": 251.91108699982578
+    },
+    {
+      "binary": "s5_server",
+      "clients": 8,
+      "baseline": {
+        "VmSize": 2912,
+        "VmRSS": 2032,
+        "Threads": 1
+      },
+      "loaded": {
+        "VmSize": 68480,
+        "VmRSS": 2128,
+        "Threads": 9
+      },
+      "setup_ms": 384.78847699934704
+    },
+    {
+      "binary": "s5_server",
+      "clients": 24,
+      "baseline": {
+        "VmSize": 2912,
+        "VmRSS": 2028,
+        "Threads": 1
+      },
+      "loaded": {
+        "VmSize": 199616,
+        "VmRSS": 2320,
+        "Threads": 25
+      },
+      "setup_ms": 701.8625890004841
+    }
+  ],
+  "m6": {
+    "client_exit": 0,
+    "tls_probe_exit": 0,
+    "plaintext_reply": "ConnectionResetError"
+  }
+}
